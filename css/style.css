@@ -40,7 +40,13 @@ i {
 }
 
 /* Section Home */
-#home .section-image {}
+#home .section-image {
+    left: auto;
+    top: auto;
+    bottom: auto;
+    right: 0;
+    width: auto;
+}
 
 #home .section-content .text-content {
     align-items: flex-end;
@@ -49,7 +55,13 @@ i {
 }
 
 /* Section About */
-#about .section-image {}
+#about .section-image {
+    right: 0;
+}
+
+#about .section-content {
+    background-color: rgba(0, 0, 0, 0.3);
+}
 
 #about .section-content .text-content {
     align-content: flex-end;
@@ -60,11 +72,12 @@ i {
 #about .section-content .text-content:first-child {
     align-content: center;
     align-items: center;
+    justify-content: flex-end;
     text-transform: uppercase;
 }
 
-#about .section-content .text-content a {
-    min-width: 5rem;
+#about .section-content .text-content .btn {
+    min-width: 6rem;
 }
 
 #about .section-content nav ul {

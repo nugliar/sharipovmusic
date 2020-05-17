@@ -102,6 +102,10 @@
 /* Utility Text */
 .text-highlight {
     color: rgb(180, 100, 30);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0 0.5rem;
+    border-radius: 2px;
+    font-weight: 900;
 }
 
 .text-light {
@@ -126,8 +130,9 @@
 
 .text-lead {
     font-size: 3.5rem;
-    font-weight: 900;
+    font-weight: 400;
     text-transform: uppercase;
+    padding: 1rem;
     color: rgb(140, 0, 20);
 }
 
