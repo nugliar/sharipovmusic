@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    /* margin: 0 1rem; */
+    font-weight: 100;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-align: center;
+    overflow: hidden;
+}
+
+i {
+    margin-right: 0.5rem;
+}
+
+/* Section Home */
+#home .section-image {}
+
+#home .section-content .text-content {
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: flex-start;
+}
+
+/* Section About */
+#about .section-image {}
+
+#about .section-content .text-content {
+    align-content: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#about .section-content .text-content:first-child {
+    align-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+#about .section-content .text-content a {
+    min-width: 5rem;
+}
+
+#about .section-content nav ul {
+    justify-content: flex-start;
+}
+
+/* Section Music */
+#music .section-image {}
+
+#music .section-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(120, 0, 0, 0.8);
+}
+
+#music .section-content nav ul {
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#music .section-content nav ul li a.custom {
+    /* color: rgb(200, 0, 40); */
+    background-color: rgb(120, 0, 20);
+    font-weight: 400;
+}
+
+#music .section-content nav ul li a:hover {
+    color: rgb(120, 0, 20);
+    background-color: #f1f1f1;
+    font-weight: 900;
+}
+
+#music .section-content .text-content {
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#music .section-content .text-content p {
+    display: block;
+    box-sizing: border-box;
+    min-width: 33%;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    padding: 2rem 1.5rem 2rem 2rem;
+    background: rgb(120, 0, 20);
+    color: #ccc;
+}
+
+/* Section Social */
+#social .section-image {
+    /* width: 140%; */
+}
+
+#social .section-content {
+    -webkit-transform: translate3d(0, 0, 0);
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#social .section-content a {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(40, 9, 11, 0.5);
+}
+
+#social .section-content a i {
+    font-size: 5rem;
+    filter: blur(5px);
+    transition: 0.8s -webkit-filter;
+    text-align: center;
+    margin: 0;
+}
+
+#social .section-content a:hover i {
+    filter: blur(0);
+    font-size: 6rem;
+}
+
+#social .section-content a:nth-child(1):hover {
+    background: rgba(20, 40, 110, 0.3);
+    color: white;
+}
+
+#social .section-content a:nth-child(2):hover {
+    background: rgba(150, 100, 0, 0.3);
+    color: white;
+}
+
+#social .section-content a:nth-child(3):hover {
+    background: rgba(100, 40, 110, 0.3);
+    color: white;
+}
+
+/* Section About More */
+#about-more {
+    height: auto;
+    min-height: 100vh;
+    scroll-snap-align: none;
+}
+
+#about-more .section-content {
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#about-more .section-content .text-content {
+    margin: 2rem;
+}
+
+#about-more .section-content .text-content h2 {
+    /* align-self: flex-start; */
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+#about-more .section-content .text-content p {
+    font-size: 1.4rem;
+    /* background-color: rgba(80, 0, 0, 0.5); */
+}
+
+/* Section Two Guns */
+#two-guns .section-image {}
