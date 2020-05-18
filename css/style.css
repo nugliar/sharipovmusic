@@ -101,15 +101,12 @@ i {
 }
 
 #music .section-content nav ul li a.custom {
-    /* color: rgb(200, 0, 40); */
     background-color: rgb(120, 0, 20);
-    font-weight: 400;
 }
 
 #music .section-content nav ul li a:hover {
     color: rgb(120, 0, 20);
     background-color: #f1f1f1;
-    font-weight: 900;
 }
 
 #music .section-content .text-content {
