@@ -42,6 +42,10 @@ i {
     width: auto;
 }
 
+#home .section-content {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent 30%);
+}
+
 #home .section-content .text-content {
     align-items: flex-end;
     align-content: flex-end;
@@ -54,7 +58,8 @@ i {
 }
 
 #about .section-content {
-    background-color: rgba(0, 0, 0, 0.3);
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6) 90%);
 }
 
 #about .section-content .text-content {
@@ -92,7 +97,8 @@ i {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    background-color: rgba(120, 0, 0, 0.8);
+    /* background-color: rgba(120, 0, 0, 0.8); */
+    background: linear-gradient(to bottom, rgba(120, 0, 0, 0.9), rgba(120, 0, 0, 0.8));
 }
 
 #music .section-content nav ul {
