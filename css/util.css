@@ -127,6 +127,7 @@
     text-transform: uppercase;
     padding: 1rem;
     color: rgb(140, 0, 20);
+    /* color: rgb(100, 0, 20); */
 }
 
 .text-xlarge {
